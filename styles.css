@@ -1,0 +1,359 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #fff;
+}
+
+header {
+    border: 1px black solid;
+    background-color: black;
+}
+
+nav {
+    border-top: 1px solid  #333333;
+    margin-top: -35px;
+    display: flex;
+    background: black;
+    color: #fff;
+}
+
+.logo {
+   flex: 1;
+}
+
+header i {
+    display: inline-block;
+    color: white;
+    margin: 5px; 
+    margin-top: -5px;
+    text-align: right;
+}
+
+
+
+
+.logo1 {
+    width: 60px;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.nav-menu-list {
+    display: flex;
+    flex: 1;
+    margin: 35px;
+    margin-left: -90px;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu-list li {
+    margin-right: 20px; 
+    font-size: 25px;
+}
+
+header .lista {
+    display: flex;
+    flex: 1;
+    margin: 35px;
+    margin-left: 450px;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+header .lista li {
+    margin-right: 100px; 
+    font-size: 12px;
+    color: silver;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: -80px;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-notify {
+    border: 1px solid black;
+}
+
+nav button {
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px; 
+    padding: 10px 20px;
+    margin: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.6s ease; 
+}
+
+nav button:hover {
+    background-color: #8B0000; 
+}
+
+.nav-notify li {
+    position: relative;
+}
+.nav-notify li:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    transition: transform 0.6s ease;
+  }
+
+  .spartan-race {
+    padding-top: 10px;
+  }
+  
+  .spartan {
+    width: 710px; /* Prilagodite širinu slike prema svojim potrebama */
+    height: 718px;
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Tamna prozirna pozadina */
+    color: white; /* Boja teksta */
+    padding: 20px; /* Dodaje razmak oko teksta (prilagodite prema potrebi) */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .image-text h1 {
+    font-size: 24px; /* Veličina teksta naslova (prilagodite prema potrebi) */
+  }
+  
+  .image-text strong {
+    font-weight: bold; /* Podebljajte tekst (prilagodite prema potrebi) */
+  }
+  
+  .spartan-race .spartan:hover {
+    transform: scale(1.1);
+  }
+
+.spartan-race .spartan:hover{
+    transform: scale(1.1);
+}
+
+.brown-bg {
+    background-color: rgba(222, 184, 135, 0.7); /* Svetlo braon pozadina */
+  }
+  
+  /* Dodajemo stil za najveći naslov */
+  .large-text {
+    font-size: 36px; /* Veličina najvećeg naslova (prilagodite prema potrebi) */
+  }
+  
+  /* Postavljamo sve tekstove unutar .brown-bg da budu bele boje */
+  .brown-bg h1,
+  .brown-bg p,
+  .brown-bg strong {
+    color: white; /* Boja teksta */
+    text-align: left; /* Postavljamo poravnanje teksta na levo */
+  }
+  
+  /* Ostali stilovi za .image-container i .image-text ostaju isti */
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    transition: transform 4s ease;
+  }
+  
+  .spartan1 {
+    width: 725px; /* Prilagodite širinu slike prema svojim potrebama */
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white; /* Boja teksta */
+    padding: 20px; /* Dodaje razmak oko teksta (prilagodite prema potrebi) */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .spartan-race .spartan1:hover {
+    transform: scale(1.1);
+  }
+
+ 
+
+.delije {
+    background-image: url('pozadina.webp');
+    background-size: cover;
+    margin-top: 50px;
+    padding: 250px;
+}
+
+.delije p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.delije h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: .35px;
+    line-height: 55px;
+    text-transform: uppercase;
+    
+}
+
+.delije h6 {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.delije button {
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    border-radius: 100px; 
+    padding: 10px 24px;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    transition: background-color 0,6s ease;
+    margin-left: -10px;
+}
+
+.delije button:hover {
+    color: black;
+    background-color: white;
+}
+
+.delije .cigani {
+    background-color: white;
+    color: black;
+    border-radius: 100px; 
+    padding: 10px 20px;
+    margin: 30px;
+    padding: 10px 20px;
+    transition: background-color 0,6s ease;
+    margin-left: 315px;
+}
+
+.delije .cigani:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.box {
+    background-color: #121212;
+    padding:  120px;
+    
+}
+
+.box h1 {
+    color: white;
+    margin-left: -30px;
+    margin-top: 70px;
+    font-size: 36px;
+}
+
+.box p {
+    color: #fff;
+    margin-left: -30px;
+    padding-top: 5px;
+}
+
+
+
+.box button {
+    margin-left: 1000px;
+    border-radius: 100px; 
+    padding: 15px 25px;
+    padding-right: 60px;
+    transition: 0.6s;
+    text-align: center;
+}
+
+.box button:hover {
+    background-color: rgb(192, 192, 192);
+}
+
+.box .ber {
+    margin-top: -80px;
+}
+
+.box .d input {
+    background-color: #121212;
+    border-color: #121212;
+    color: white;
+}
+
+.box .d {
+    margin-left: 570px;
+    margin-top: -35px;
+}
+
+.box .border {
+    border-bottom: 1px solid silver;
+    margin-left: 571px;
+    margin-right: 190px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 5px;
+    
+}
+
+.footer img {
+    margin-left: 940px;
+    margin-top: -60px;
+}
+
+
+.footer .col-md-4 {
+    padding-top: 50px;
+}
+
+.footer .zvezda p {
+    color: #979797;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.footer .zvezda h6 {
+    color: #979797;
+    margin-left: 1150px;
+    margin-top: -37px;
+}
+
+.footer  i {
+    margin: -35px;
+    padding-top: 100px;
+    margin-left: 70px;
+    color: white;
+}
+
